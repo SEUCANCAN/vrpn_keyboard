@@ -27,6 +27,4 @@ add_executable(keyboard_control_node src/keyboard_control_node.cpp)
 
 add_dependencies(keyboard_control_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
-target_link_libraries(keyboard_control_node
-  ${catkin_LIBRARIES}
-)
+target_link_libraries(keyboard_control_node ${catkin_LIBRARIES})

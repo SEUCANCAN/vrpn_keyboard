@@ -5,4 +5,4 @@ Description: Description of vrpn_client_ros
 Version: 0.2.2
 Cflags: -I${prefix}/include -I/opt/ros/kinetic/include
 Libs: -L${prefix}/lib -lvrpn_client_ros /opt/ros/kinetic/lib/libvrpn.a /opt/ros/kinetic/lib/libquat.a -lm -lpthread
-Requires: geometry_msgs tf2_ros
+Requires: geometry_msgs tf2_ros std_msgs message_runtime

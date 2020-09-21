@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/seu/vrpn/catkin_ws/devel/include/vrpn_client_ros/Position_Yaw.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
 /home/seu/vrpn/catkin_ws/src/vrpn_client_ros/src/listener.cpp
 ros/ros.h
 /home/seu/vrpn/catkin_ws/src/vrpn_client_ros/src/ros/ros.h
@@ -15,6 +31,10 @@ geometry_msgs/PoseStamped.h
 /home/seu/vrpn/catkin_ws/src/vrpn_client_ros/src/geometry_msgs/PoseStamped.h
 sstream
 -
+math.h
+/home/seu/vrpn/catkin_ws/src/vrpn_client_ros/src/math.h
+vrpn_client_ros/Position_Yaw.h
+/home/seu/vrpn/catkin_ws/src/vrpn_client_ros/src/vrpn_client_ros/Position_Yaw.h
 
 /opt/ros/kinetic/include/geometry_msgs/Point.h
 string
